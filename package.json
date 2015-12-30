@@ -26,10 +26,10 @@
     "react-router": "^1.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.34",
-    "babel-core": "^5.8.34",
+    "babel": "^6.3.26",
+    "babel-core": "^6.3.26",
     "babel-eslint": "^3.1.23",
-    "babel-loader": "^5.4.0",
+    "babel-loader": "^6.2.0",
     "eslint": "1.4.1",
     "eslint-config-rackt": "1.0.0",
     "eslint-plugin-react": "3.3.2",
