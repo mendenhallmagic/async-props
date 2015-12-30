@@ -308,8 +308,12 @@ class AsyncProps extends React.Component {
   }
 
   render() {
+    const { renderWhenLoading } = this.props
     const { propsAndComponents } = this.state
     if (!propsAndComponents) {
+      if (renderWhenLoading) {
+        return <RoutingContext {...this.props} />
+      }
       return this.props.renderLoading()
     }
     else {
